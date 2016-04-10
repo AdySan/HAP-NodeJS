@@ -6,7 +6,7 @@ console.log("Connecting to MQTT broker...");
 var mqtt = require('mqtt');
 var options = {
   port: 1883,
-  host: '192.168.1.155',
+  host: '192.168.1.12',
   clientId: 'AdyPi_NurseryTemperatureSensor'
 };
 var client = mqtt.connect(options);
